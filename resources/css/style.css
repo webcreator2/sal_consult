@@ -96,7 +96,7 @@ p {
 /* help list */
 .help-list {
     list-style-position: inside;
-    font-family: cursive;
+    font-family: 'Comic Sans MS';
     line-height: 2;
     text-align: center;
     font-size: xx-large;
@@ -120,7 +120,7 @@ p {
 /* help section questions */
 .help-ask {
     text-align: center;
-    font-family: cursive;
+    font-family: 'Comic Sans MS';
     font-size: larger;
     line-height: 2;
  }
@@ -128,7 +128,7 @@ p {
  /* help section scenario text */
 .help-scenario {
     text-align: center;
-    font-family: cursive;
+    font-family: 'Comic Sans MS';
     font-size: larger;
     line-height: 2;
  }
