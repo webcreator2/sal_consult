@@ -120,6 +120,13 @@ p {
     position: relative;
 }
 
+/* help section div right */
+.help-right {
+    float: right;
+    width: 50vw;
+    position: relative;
+}
+
 /* help section tips */
 .help-tips {
    text-align: center;
