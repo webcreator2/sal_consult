@@ -1,12 +1,12 @@
 /* navbar */
 .nav {
-    width: 100vw;
+    max-width: 100%;
     background-color:mediumseagreen;
     height: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: -10px;
-    position: relative;
+    position:relative;
 }
 
 /* style h1 */
@@ -14,6 +14,10 @@ h1 {
     text-align: center;
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.div-fixed {
+    width: 50vw;
 }
 
 /* left side banner div */
@@ -46,16 +50,21 @@ p {
 
 /* banner image formatting*/
 .img {
-    width: 400px;
-    height: 400px;
-    padding-left: 110px;
-    padding-top: 20px;
+    max-width: 80%;
+    height: auto;
     border-radius: 20%;
+    margin-left: 45px;
 }
 
 /* banner div right*/
 .banner-div-right {
     padding-top: 20px;
+}
+
+/* banner div right*/
+.banner-div-left {
+    max-width: 75%;
+    padding-left: 60px;
 }
 
 /* trim edges from line */
