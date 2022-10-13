@@ -24,7 +24,26 @@ h1 {
 .div-left {
     float: left;
     width: 50vw;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* right side sal div */
+.div-right {
+    float: right;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* center sal section */
+.sal-section {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* h3 formatting */
@@ -50,26 +69,45 @@ p {
 
 /* banner image formatting*/
 .img {
-    max-width: 80%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 20%;
-    margin-left: 45px;
+}
+
+/* banner image formatting*/
+.help-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
 }
 
 /* banner div right*/
 .banner-div-right {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
-/* banner div right*/
+/* banner div left*/
 .banner-div-left {
-    max-width: 75%;
-    padding-left: 60px;
+    max-width: 70%;
+}
+
+/* sal div right*/
+.sal-div-right {
+    max-width: 70%;
 }
 
 /* trim edges from line */
 .line-trim {
     width: 90%;
+}
+
+/* trim edges from line */
+.line-trim-more {
+    width: 45%;
 }
 
 /* padding to bottom of section */
@@ -95,10 +133,9 @@ p {
 
 /* salary expectations image */
 .sal-img {
-    width: 200px;
-    height:200px;
+    max-width: 100%;
+    max-height: 100%;
     position: relative;
-    margin-left: 120px;
 }
 
 
@@ -106,11 +143,15 @@ p {
 .help-list {
     list-style-position: inside;
     font-family: 'Comic Sans MS';
-    line-height: 2;
     text-align: center;
-    font-size: xx-large;
-    color:limegreen;
-    margin-top: -10px;
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+/* inline-block */
+.inline {
+    display: inline;
+    padding-inline: 30px;
 }
 
 /* help section div left */
@@ -151,8 +192,8 @@ p {
 
 /* resize help section div right image */
 .img-right {
-    width: 400px;
-    height: 800px;
+    width: 40%;
+    height: auto;
     margin-left: 30px;
     box-shadow: 1px 1px 5px grey;
 }
